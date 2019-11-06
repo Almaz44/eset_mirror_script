@@ -170,7 +170,7 @@ class Mirror
         );
 
         if (is_array($headers) and $headers['http_code'] == 200) {
-            if (preg_match("/text/", Tools::get_file_mimetype($archive))) {
+            if (preg_match("/text|application\/x-wine-extension-ini/", Tools::get_file_mimetype($archive))) {
                 rename($archive, $extracted);
             } else {
                 Log::write_log(Language::t("Extracting file %s to %s", $archive, $tmp_path), 5, static::$version);

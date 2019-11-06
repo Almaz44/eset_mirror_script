@@ -1,3 +1,7 @@
+20191106:
+ Fixed:
+  - Tools::get_file_mimetype method - added mime type "application/x-wine-extension-ini"
+
 20190309:
  Removed:
   - Mirror::exp_nod method

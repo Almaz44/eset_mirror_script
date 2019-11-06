@@ -15,7 +15,7 @@ $DIRECTORIES = [
     12 => 'eset_upd/v12',
 ];
 
-$VERSION = '20190309 [Freedom for Ukraine by harmless]';
+$VERSION = '20191106 [Freedom for Ukraine by harmless]';
 
 @define('DS', DIRECTORY_SEPARATOR);
 @define('SELF', dirname(__DIR__) . DS);
