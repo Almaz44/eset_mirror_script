@@ -1,3 +1,6 @@
+20191118:
+ Added:
+  - Поддержка 13 версии
 20191106:
  Исправлено:
   - Tools::get_file_mimetype метод - добавлено mime тип "application/x-wine-extension-ini"
